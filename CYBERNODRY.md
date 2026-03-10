@@ -6,5 +6,7 @@ local success, result = pcall(function()
 end)
 
 if not success then
-    warn("Erro ao carregar o script: " .. tostring(result))
+    warn("Não foi possível carregar o script: " .. tostring(result))
+else
+    print("Script CyberNoDry carregado com sucesso!")
 end
