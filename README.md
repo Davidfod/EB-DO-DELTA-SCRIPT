@@ -1,1 +1,0 @@
-# EB-DO-DELTA-SCRIPT
